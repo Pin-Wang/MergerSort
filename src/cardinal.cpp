@@ -5,12 +5,12 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include "insert.h"
+#include "cardinal.h"
 
 int main() {
-	Insert i;
+	Cardinal c;
 	int a[]={4,2,6,8,1,7};
-	i.insert_hill(a,6);
-	i.print(a,6);
+	c.cardinal_sort(a,6);
+	c.print(a,6);
 	return 0;
 }
