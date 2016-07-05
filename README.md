@@ -1,1 +1,1 @@
-# CardinalSort
+# MergerSort
