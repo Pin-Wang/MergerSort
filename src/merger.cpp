@@ -5,12 +5,12 @@
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
-#include "cardinal.h"
+#include "merger.h"
 
 int main() {
-	Cardinal c;
-	int a[]={4,2,6,8,1,7};
-	c.cardinal_sort(a,6);
+	Merger c;
+	int a[]={4,2,6,8,6,7};
+	c.merge_sort(a,0,5);
 	c.print(a,6);
 	return 0;
 }
